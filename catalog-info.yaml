@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-react-website
+  annotations:
+    github.com/project-slug: 'spotify-portal-demo/demo-react-website'
+spec:
+  type: website
+  lifecycle: production
+  owner: eagles
