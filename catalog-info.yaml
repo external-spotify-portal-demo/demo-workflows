@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo-react-website
+  name: demo-workflows
   annotations:
-    github.com/project-slug: "external-spotify-portal-demo/demo-react-website"
+    github.com/project-slug: "external-spotify-portal-demo/demo-workflows"
 spec:
   type: website
   lifecycle: experimental
-  owner: belugas
+  owner: kubecon-squad
